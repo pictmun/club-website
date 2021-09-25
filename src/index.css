@@ -8,4 +8,7 @@
   height: 30vh;
   background: #d4d4d4;
   text-align: center;
+  padding-top: 10vh;
+  font-size: 3rem;
+  font-weight: bolder;
 }
