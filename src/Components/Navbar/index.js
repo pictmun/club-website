@@ -3,8 +3,8 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <a className="navbar-brand" href="/">
           PICTMUN
         </a>
         <button
@@ -31,8 +31,13 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="/aboutUs">
+                About Us
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/gallery">
+                Gallery
               </a>
             </li>
             <li className="nav-item">

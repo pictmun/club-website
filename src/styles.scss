@@ -1,0 +1,109 @@
+$primaryColor: #25274d;
+$secondaryColor: #aaabb8;
+$color3: #2e9cca;
+$color4: #29648a;
+$color5: #464866;
+
+body {
+  background-color: $primaryColor;
+  color: $secondaryColor;
+}
+
+.bg-img {
+  min-height: 95vh;
+  vertical-align: middle;
+  background: $color5;
+}
+
+.bg-img h1 {
+  padding-top: 25vh;
+  font-size: 7rem;
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+}
+
+.bg-light {
+  background-color: $primaryColor !important;
+}
+
+.home h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: $color3;
+  margin-bottom: 16px;
+}
+// .para-title:after {
+//   content: "";
+//   position: absolute;
+//   width: 90%;
+//   height: 1px;
+//   bottom: 0;
+//   left: 5%;
+//   border-bottom: 1px solid $color4;
+// }
+
+.home p {
+  color: #fff;
+  letter-spacing: 1.25px;
+  font-size: 16px;
+}
+.home-events {
+  padding: 25px;
+  background-color: $color5;
+}
+.home-events h2 {
+  color: $color3;
+}
+.home-events a {
+  background-color: $color3;
+  color: #fff !important;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 8px 25px;
+}
+
+.heading {
+  height: 30vh;
+  background: $color5;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: $primaryColor;
+}
+
+.event-cards .card {
+  background-color: $color5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.event-cards .card-title {
+  color: $primaryColor;
+  //   text-shadow: 1px 1px $secondaryColor;
+  font-weight: bold;
+  font-size: 32px !important;
+}
+.event-cards .card-body {
+  color: #fff;
+  letter-spacing: 1.25px;
+  padding: 25px;
+}
+
+.about-us .card {
+  background-color: $color5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.about-us .card-text {
+  // background-color: $secondaryColor;
+  color: #fff !important;
+  letter-spacing: 1.25px;
+  padding: 10px 25px;
+}
+
+.about-us .card-header h3 {
+  color: $primaryColor;
+  //   text-shadow: 1px 1px $secondaryColor;
+  font-weight: bold !important;
+  font-size: 32px !important;
+}
