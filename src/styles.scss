@@ -116,3 +116,27 @@ body {
 .contact-form textarea {
   background-color: $secondaryColor;
 }
+
+.footer {
+  width: 100%;
+  min-height: 20vh;
+  background-color: $secondaryColor;
+  color: black;
+}
+.footer a {
+  text-decoration: none !important;
+  color: #464866;
+  margin: 15px;
+}
+.footer-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #25274d;
+  font-weight: bold;
+}
+.footer i {
+  font-size: 32px;
+}
+.base {
+  background-color: #464866;
+}
