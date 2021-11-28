@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           PICTMUN
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,29 +22,34 @@ const Navbar = () => {
         <div className="collapse navbar-collapse " id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/events">
+              <Link className="nav-link" to="/events">
                 Events
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/aboutUs">
+              <Link className="nav-link" to="/aboutUs">
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/gallery">
+              <Link className="nav-link" to="/team">
+                Our Team
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/gallery">
                 Gallery
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contactUs">
+              <Link className="nav-link" to="/contactUs">
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

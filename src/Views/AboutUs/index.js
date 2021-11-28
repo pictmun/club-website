@@ -1,7 +1,11 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 import AboutCard from "./aboutCard";
 
 const AboutUs = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <div className="about-us">

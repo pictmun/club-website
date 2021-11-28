@@ -5,6 +5,7 @@ import ContactUs from "./Views/ContactUs";
 import Events from "./Views/Events";
 import Gallery from "./Views/Gallery";
 import Home from "./Views/Home";
+import Team from "./Views/Team";
 
 const Routes = () => {
   return (
@@ -24,6 +25,9 @@ const Routes = () => {
         </Route>
         <Route exact path="/contactUs">
           <ContactUs />
+        </Route>
+        <Route exact path="/team">
+          <Team />
         </Route>
       </Switch>
     </>
