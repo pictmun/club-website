@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 
 const ContactUs = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <div className="heading-bg">
@@ -20,7 +24,7 @@ const ContactUs = () => {
             </iframe> */}
 
             <form className="contact-form px-5">
-              <h3> Connect with Us </h3>
+              <h3> Connect with Us! </h3>
               <br />
               <div class="form-group">
                 <label for="exampleInputPassword1">Name</label>
@@ -32,7 +36,7 @@ const ContactUs = () => {
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="exampleInputEmail1">Email Address</label>
                 <input
                   type="email"
                   class="form-control"
@@ -50,9 +54,10 @@ const ContactUs = () => {
                   placeholder="Type here"
                 />
               </div>
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" class="btn btn-info mt-3">
                 Submit
               </button>
+              <br /><br />
             </form>
           </div>
         </div>

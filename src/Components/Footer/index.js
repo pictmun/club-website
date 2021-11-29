@@ -17,24 +17,24 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </div>
                 <div className="mb-2">
-                  <Link to="/">Events</Link>
+                  <Link to="/events">Events</Link>
                 </div>
 
-                <Link to="/">About Us</Link>
+                <Link to="/aboutUs">About Us</Link>
               </div>
               <div className="col-6">
                 <div className="mb-2">
-                  <Link to="/">Gallery</Link>
+                  <Link to="/gallery">Gallery</Link>
                 </div>
                 <div className="mb-2">
                   <Link to="/">Newsletter</Link>
                 </div>
-                <Link to="/">Contact US</Link>
+                <Link to="/contactUs">Contact Us</Link>
               </div>
             </div>
           </div>
           <div className="col-md-4 text-center">
-            <div className="footer-title">Connect with us</div>
+            <div className="footer-title">Connect with Us!</div>
             <div className="row">
               <div className="col-3"></div>
               <div className="col-2">

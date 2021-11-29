@@ -42,6 +42,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              {/* <Link className="nav-link" to="/newsletter">
+                Newsletter
+              </Link> */}
+              <Link className="nav-link" to={{ pathname: "https://pictmun.github.io/Newsletter/" }} target="_blank"> 
+                Newsletter
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/gallery">
                 Gallery
               </Link>

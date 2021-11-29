@@ -1,8 +1,8 @@
-$primaryColor: #25274d;
-$secondaryColor: #aaabb8;
-$color3: #2e9cca;
-$color4: #29648a;
-$color5: #464866;
+$primaryColor: #f8f8f6;
+$secondaryColor: #0a677e;
+$color3: #70b3b9;
+$color4: #054555;
+$color5: #bbe0e8;
 
 body {
   background-color: $primaryColor;
@@ -43,7 +43,7 @@ body {
 // }
 
 .home p {
-  color: #fff;
+  color: #000;
   letter-spacing: 1.25px;
   font-size: 16px;
 }
@@ -54,17 +54,22 @@ body {
 .home-events h2 {
   color: $color3;
 }
+
 .home-events a {
   background-color: $color3;
-  color: #fff !important;
+  color: #054555;
   font-weight: bold;
   border-radius: 25px;
   padding: 8px 25px;
+  &:hover {
+    // background: #71b2b6;
+    color: #fff !important;
+  }
 }
 
 .heading {
   height: 30vh;
-  background: $color5;
+  background: $color4;
   text-align: center;
   padding-top: 10vh;
   font-size: 3rem;
@@ -79,12 +84,13 @@ body {
 
 .event-cards .card-title {
   color: $primaryColor;
+  color: #054555;
   //   text-shadow: 1px 1px $secondaryColor;
   font-weight: bold;
   font-size: 32px !important;
 }
 .event-cards .card-body {
-  color: #fff;
+  color: #000000;
   letter-spacing: 1.25px;
   padding: 25px;
 }
@@ -96,13 +102,14 @@ body {
 
 .about-us .card-text {
   // background-color: $secondaryColor;
-  color: #fff !important;
+  color: #000000 !important;
   letter-spacing: 1.25px;
   padding: 10px 25px;
 }
 
 .about-us .card-header h3 {
-  color: $primaryColor;
+  // color: $primaryColor;
+  color: #054555;
   //   text-shadow: 1px 1px $secondaryColor;
   font-weight: bold !important;
   font-size: 32px !important;
@@ -114,13 +121,25 @@ body {
 
 .contact-form input,
 .contact-form textarea {
-  background-color: $secondaryColor;
+  // background-color: $secondaryColor;
+  background-color: #bbe0e8;
+  color: #054555;
+}
+
+::placeholder {
+  color: #054555 !important;
+}
+
+input {
+  background-color: #fff;
+  // color: #054555;
 }
 
 .footer {
   width: 100%;
   min-height: 20vh;
-  background-color: $secondaryColor;
+  // background-color: $secondaryColor;
+  background-color: $color3;
   color: black;
 }
 .footer a {
