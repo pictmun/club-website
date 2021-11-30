@@ -32,17 +32,17 @@ const Team = () => {
                 <h5 class="card-title">Secretary General</h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -59,17 +59,17 @@ const Team = () => {
                 <h5 class="card-title">Director General &amp; USG Operations</h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
