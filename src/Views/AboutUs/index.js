@@ -16,7 +16,7 @@ const AboutUs = () => {
           <br />
           <AboutCard
             title="PICT MUN"
-            details="Established in the year 2016, the PICT-MUN Club focuses on organizing conferences for the personality development of the students of the college and the region. The Club has successfully organized four MUN Conferences for college students and conducts group discussions, extempore and debates regularly. The Club also organizes training workshops conducted by experienced and decorated MUNers for MUN enthusiasts from in and around the city."
+            details="Established in the year 2016, the PICT MUN Club focuses on organizing conferences for the personality development of the students of the college and the region. The Club has successfully organized four MUN Conferences for college students and conducts group discussions, extempore and debates regularly. The Club also organizes training workshops conducted by experienced and decorated MUNers for MUN enthusiasts from in and around the city."
           />
           <br />
           <AboutCard

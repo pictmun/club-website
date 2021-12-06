@@ -8,7 +8,7 @@ const EventCards = () => {
       <div className="container event-cards">
         <LeftCard
           title="Extempore"
-          details="An event where participants are given topics on-the-spot, 10 minutes prior to their turn. It aims at bringing out the attendee’s thought process and quick-thinking ability in a creative manner.The event is really popular among students as it helps them a great deal in enhancing their public speaking skills."
+          details="An event where participants are given topics on-the-spot, 10 minutes prior to their turn. It aims at bringing out the attendee’s thought process and quick-thinking ability in a creative manner. The event is really popular among students as it helps them a great deal in enhancing their public speaking skills."
         />
         <RightCard
           title="Group Discussion"

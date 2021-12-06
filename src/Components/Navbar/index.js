@@ -7,7 +7,7 @@ const Navbar = (props) => {
     <>
       <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">
-          PICTMUN
+        <img src="/assets/Logo2.png" />
         </Link>
         <button
           className="navbar-toggler"
