@@ -10,7 +10,7 @@ const Home = () => {
       {" "}
       <div className="text-center">
         <div className="bg-img">
-          <h1>PICTMUN</h1>
+          <h1>PICT MUN</h1>
           <h3>- Think, Discuss, Prosper -</h3>
         </div>
       </div>
