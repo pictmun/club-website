@@ -1,6 +1,8 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
-
+import groupimg from "./images/Grouppic.JPG";
+import conferenceimg from "./images/conference.JPG";
+import newsletterimg from "./images/newsletter.png";
 const Home = () => {
   useEffect(() => {
     Aos.init();
@@ -40,12 +42,14 @@ const Home = () => {
                 helps them understand the universal principle of tolerance.
               </p>
             </div>
+
+            <div className="col-md-6 text-center" ><img src={groupimg}/></div>
           </div>
         </div>
         {/* Conference  */}
         <div className="container mt-5">
           <div className="row my-5">
-            <div className="col-md-6"></div>
+            <div className="col-md-6 text-center"><img src={conferenceimg}/></div>
             <div
               className="col-md-6"
               data-aos="fade-up"
@@ -67,6 +71,7 @@ const Home = () => {
                 national delegates from various states of the country!
               </p>
             </div>
+
           </div>
         </div>
         {/* Events  */}
@@ -89,11 +94,12 @@ const Home = () => {
                   giving each individual the opportunity to develop their public
                   speaking skills.
                 </p>
-                <a className="btn btn-info mt-3" href="/events">See All Events</a>
+ 
               </div>
             </div>
           </div>
-        </div>
+          </div>
+        
         {/* Newsletter  */}
         <div className="container mt-5">
           <div className="row my-5">
@@ -123,6 +129,7 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
+            <div className="col-md-6 text-center"><img src={newsletterimg}/></div>
           </div>
         </div>
       </div>
