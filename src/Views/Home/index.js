@@ -45,13 +45,13 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000" ><img width="510" height="296" src={groupimg} style={{marginTop:"50px"}}/></div>
+            <div className="col-md-6 text-center" id="homepic1" data-aos="fade-up" data-aos-duration="1000" ><img width="510" height="296" src={groupimg} style={{marginTop:"50px"}}/></div>
           </div>
         </div>
         {/* Conference  */}
         <div className="container mt-5">
           <div className="row my-5">
-            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg} style={{marginTop:"60px"}}/></div>
+            <div className="col-md-6 text-center" id="homepic2" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg} style={{marginTop:"60px"}}/></div>
             <div
               className="col-md-6"
               data-aos="fade-up"
@@ -131,7 +131,7 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
-            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px"}}/></div>
+            <div className="col-md-6 text-center" id="homepic3" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px"}}/></div>
           </div>
         </div>
       </div>

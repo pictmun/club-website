@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer container-fluid py-5">
         <div className="row">
           <div className="col-md-4" text-center >
-            <img src="/assets/Logo.png" />
+            <img className="footer-img" src="/assets/Logo.png" />
           </div>
           <div className="col-md-4 text-center">
             <div className="footer-title">Links</div>
