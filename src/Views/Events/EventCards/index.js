@@ -7,6 +7,7 @@ import debateimg from "../images/debate.JPG";
 import openmicimg from "../images/openmic.JPG";
 import feimg from "../images/fe.JPG";
 import intramunimg from "../images/intramun.png";
+import driveimg from "../images/drive_poster.png";
 
 
 const EventCards = () => {
@@ -16,7 +17,7 @@ const EventCards = () => {
         <LeftCard
           image = {extemporeimg}
           title="Extempore"
-          details="An event where participants are given topics on-the-spot, 10 minutes prior to their turn. It aims at bringing out the attendee’s thought process and quick-thinking ability in a creative manner.The event is really popular among students as it helps them a great deal in enhancing their public speaking skills."
+          details="An event where participants are given topics on-the-spot, 10 minutes prior to their turn. It aims at bringing out the attendee’s thought process and quick-thinking ability in a creative manner. The event is really popular among students as it helps them a great deal in enhancing their public speaking skills."
         />
         <RightCard
           image = {gdimg}
@@ -46,6 +47,7 @@ const EventCards = () => {
           details="A program where the first year students of the college are brought to speed with the club’s passion for the research and knowledge on social and political events happening across India. The event mainly features lively debates on political topics of contemporary relevance with the aim of sparking enthusiasm among the listeners towards pertinent political issues."
         />
         <LeftCard
+          image = {driveimg}
           title="Recruitment Drive"
           details="One of the most important processes for the sustenance of any club. Every year around mid-September, a form is circulated to our college students which acts as the preliminary selection round. Subsequently, interviews are taken by the TEs before admitting an individual to the club.Prerequisites being basic knowledge about MUNs and a lot of enthusiasm."
         />

@@ -26,13 +26,14 @@ const Home = () => {
               data-aos-duration="1000"
             >
               <h2 className="para-title">PICT MUN</h2>
+              {/* <img src="/assets/1.png" alt="" /> */}
               <p className="info">
                 The PICT MUN Club, established in 2016, consists of a group of
                 inquisitive students who are passionate about social, political
-                and economic issues that elude the future of our World. PICT MUN
+                and economic issues that elude the future of our world. PICT MUN
                 strongly believes in the important role of dialogue and
                 discussion in solving any problem and hence always abides by its
-                motto 'Think.Discuss.Prosper.' PICT MUN organizes an annual MUN
+                motto - 'Think.Discuss.Prosper.' PICT MUN organizes an annual MUN
                 conference and various public speaking events to engage the
                 youth, who are the torchbearers of the future, in stimulating
                 conversations. This encourages them to discuss and debate on
@@ -95,6 +96,7 @@ const Home = () => {
                 </p>
 
                 <a className="btn btn-info mt-3">See All Events</a>
+                <a className="btn btn-info mt-3" href="/events">See All Events</a>
               </div>
             </div>
           </div>
