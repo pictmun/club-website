@@ -1,8 +1,8 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
-import groupimg from "./images/Grouppic.JPG";
+import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
-import newsletterimg from "./images/newsletter.png";
+import newsletterimg from "./images/Issue12.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -45,13 +45,13 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000" ><img src={groupimg}/></div>
+            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000" ><img width="510" height="296" src={groupimg} style={{marginTop:"50px"}}/></div>
           </div>
         </div>
         {/* Conference  */}
         <div className="container mt-5">
           <div className="row my-5">
-            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg}/></div>
+            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg} style={{marginTop:"60px"}}/></div>
             <div
               className="col-md-6"
               data-aos="fade-up"
@@ -131,7 +131,7 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
-            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg}/></div>
+            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px"}}/></div>
           </div>
         </div>
       </div>
