@@ -94,7 +94,7 @@ const Home = () => {
                   giving each individual the opportunity to develop their public
                   speaking skills.
                 </p>
- 
+                <a className="btn btn-info mt-3" href="/events">See All Events</a>
               </div>
             </div>
           </div>
