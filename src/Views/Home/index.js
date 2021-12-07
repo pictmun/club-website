@@ -43,13 +43,13 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="col-md-6 text-center" ><img src={groupimg}/></div>
+            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000" ><img src={groupimg}/></div>
           </div>
         </div>
         {/* Conference  */}
         <div className="container mt-5">
           <div className="row my-5">
-            <div className="col-md-6 text-center"><img src={conferenceimg}/></div>
+            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg}/></div>
             <div
               className="col-md-6"
               data-aos="fade-up"
@@ -129,7 +129,7 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
-            <div className="col-md-6 text-center"><img src={newsletterimg}/></div>
+            <div className="col-md-6 text-center" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg}/></div>
           </div>
         </div>
       </div>
