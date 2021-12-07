@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import groupimg from "./images/Grouppic.JPG";
 import conferenceimg from "./images/conference.JPG";
 import newsletterimg from "./images/newsletter.png";
+import { Link } from "react-router-dom";
+
 const Home = () => {
   useEffect(() => {
     Aos.init();
@@ -94,7 +96,7 @@ const Home = () => {
                   giving each individual the opportunity to develop their public
                   speaking skills.
                 </p>
- 
+                <Link className="btn btn-info mt-3" to="/events">See All Events</Link>
               </div>
             </div>
           </div>
