@@ -28,6 +28,11 @@ body {
   min-height: 95vh;
   vertical-align: middle;
   background: $color5;
+  background-image: url("./Views/Home/images/cover2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .bg-img h1 {
@@ -94,6 +99,13 @@ body {
   font-size: 3rem;
   font-weight: bolder;
   color: $primaryColor;
+}
+
+.team-headings {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 25pt;
 }
 
 .event-cards .card {
@@ -175,6 +187,11 @@ input {
 .footer i {
   font-size: 32px;
 }
+
+#footer-icons {
+  margin-left: 5px;
+}
+
 .base {
   background-color: #464866;
 }

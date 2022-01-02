@@ -1,8 +1,8 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
-import Ahmed from "./Team/Ahmed.jpeg";
+import Ahmed from "./Team/Ahmed.png";
 import Malhaar from "./Team/Malhaar.png";
-import Sufiya from "./Team/Sufiya.jpeg";
+import Sufiya from "./Team/Sufiya.png";
 import Yash from "./Team/Yash.png";
 import Karthik from "./Team/Karthik.png";
 import Saima from "./Team/Saima.png";
@@ -10,7 +10,7 @@ import Zeel from "./Team/Zeel.png";
 import Abhishek from "./Team/Abhishek.png";
 import Anuja from "./Team/Anuja.png";
 import Soham from "./Team/Soham.png";
-import { SRLWrapper } from "simple-react-lightbox";
+
 
 const Team = () => {
   return (
@@ -18,6 +18,7 @@ const Team = () => {
       <div className="heading-bg">
         <div className="heading mb-5">Team</div>
       </div>
+      <h3 className="team-headings"> Secretary General  </h3>
       <div className="container">
         <div className="row">
           <div className="col-md-6 text-center">
@@ -28,7 +29,7 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Ahmed Siddiqui</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Ahmed Siddiqui</h5>
                 <h5 class="card-title">Secretary General</h5>
 
                 <div className="row">
@@ -55,8 +56,9 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Malhaar Karandikar</h5>
-                <h5 class="card-title">Director General &amp; USG Operations</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Malhaar Karandikar</h5>
+                <h5 class="card-title">Director General</h5>
+                <h5 class="card-title"> USG Operations </h5>
 
                 <div className="row">
                   <div className="col-4"></div>
@@ -86,21 +88,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Sufiya Sayyed</h5>
-                <h5 class="card-title">Charge d'Affaires &amp; USG Content and Research</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Sufiya Sayyed</h5>
+                <h5 class="card-title">Charge d'Affaires</h5>
+                <h5 class="card-title"> USG Content and Research </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -113,21 +116,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Yash Kale</h5>
-                <h5 class="card-title">Chief Strategy Officer &amp; USG Marketing</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Yash Kale</h5>
+                <h5 class="card-title">Chief Strategy Officer </h5>
+                <h5 class="card-title"> USG Marketing </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -135,6 +139,7 @@ const Team = () => {
         </div>
 
         {/* Row 3 */}
+        <h3 className="team-headings"> Under - Secretary General </h3>
 
         <div className="row ">
           <div className="col-md-4 text-center">
@@ -145,21 +150,21 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Karthik Panicker</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Karthik Panicker</h5>
                 <h5 class="card-title">USG Content and Research</h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -172,21 +177,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Saima Ansari</h5>
-                <h5 class="card-title">USG Design &amp; Technical</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}} >Saima Ansari</h5>
+                <h5 class="card-title">USG Design</h5> 
+                <h5 clas="card-title"> &amp; Technical Affairs </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -199,21 +205,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Zeel Patel</h5>
-                <h5 class="card-title">USG External Affairs &amp; Publicity</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Zeel Patel</h5>
+                <h5 class="card-title">USG External Affairs</h5>
+                <h5 class="card-title"> &amp; Publicity </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -230,21 +237,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Abhishek Bora</h5>
-                <h5 class="card-title">USG Publicity &amp; Marketing</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Abhishek Bora</h5>
+                <h5 class="card-title">USG Publicity</h5>
+                <h5 class="card-title"> &amp; Marketing </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -257,21 +265,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Anuja Patil</h5>
-                <h5 class="card-title">USG Technical &amp; Delegate Affairs</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Anuja Patil</h5>
+                <h5 class="card-title">USG Technical Affairs</h5>
+                <h5 class="card-title"> &amp; Delegate Affairs </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>
@@ -284,21 +293,22 @@ const Team = () => {
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Soham Naik</h5>
-                <h5 class="card-title">USG Delegate Affairs &amp; Operations</h5>
+                <h5 class="card-title" style={{fontWeight: "bold"}}>Soham Naik</h5>
+                <h5 class="card-title">USG Delegate Affairs</h5>
+                <h5 class="card-title"> &amp; Operations </h5>
 
                 <div className="row">
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                   <div className="col-2">
                     <i class="fab fa-instagram"></i>
                   </div>
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
-                  </div>
+                  </div> */}
                   <div className="col-2">
                     <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <div className="col-3"></div>
+                  <div className="col-4"></div>
                 </div>
               </div>
             </div>

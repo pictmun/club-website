@@ -3,10 +3,10 @@ import React, { useEffect } from "react";
 import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
 import newsletterimg from "./images/Issue12.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 const Home = () => {
-  useEffect(() => {
+  useEffect(() => { 
     Aos.init();
   }, []);
   return (
@@ -14,8 +14,8 @@ const Home = () => {
       {" "}
       <div className="text-center">
         <div className="bg-img">
-          <h1>PICT MUN</h1>
-          <h3>- Think, Discuss, Prosper -</h3>
+          <h1 style={{color:' #bbe0e8'}}>PICT MUN</h1>
+          <h3  style={{color:' #bbe0e8'}}>- Think, Discuss, Prosper -</h3>
         </div>
       </div>
       <div className="home">
@@ -131,7 +131,7 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
-            <div className="col-md-6 text-center" id="homepic3" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px"}}/></div>
+            <div className="col-md-6 text-center" id="homepic3" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px", marginLeft:"250px"}}/></div>
           </div>
         </div>
       </div>
