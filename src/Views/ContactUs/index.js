@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
-
+import "./style.css";
 const ContactUs = () => {
   useEffect(() => {
     Aos.init();
@@ -12,18 +12,21 @@ const ContactUs = () => {
       </div>
       <div className="container">
         <div className=" row">
-          <div className="col-md-6"></div>
           <div className="col-md-6">
-            {/* Google Form  */}
+          <h2>Reach us</h2>
+          <iframe className ="form" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5761897254206!2d73.84864491482712!3d18.457542087445756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eac85230ba47%3A0x871eddd0a8a0a108!2sSCTR'S%20Pune%20Institute%20of%20Computer%20Technology!5e0!3m2!1sen!2sin!4v1582286940895!5m2!1sen!2sin" allowfullscreen=""></iframe>
+          </div>
+          <div className="col-md-6">
+            <h2>   Google Form </h2>
 
-            {/* <iframe
-              className="contact-form"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeFYtS19k90-8w7XB4jJRzJ7M_fi6k8uTwdkMUFW7H1OBnnEQ/viewform?embedded=true"
+            <iframe
+              className="form"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeFYtS19k90-8w7XB4jJRzJ7M_fi6k8uTwdkMUFW7H1OBnnEQ/viewform?embedded=true"  title="contact form"
             >
               Loading…
-            </iframe> */}
+            </iframe>
 
-            <form className="contact-form px-5">
+            {/* <form className="contact-form px-5">
               <h3> Connect with Us! </h3>
               <br />
               <div class="form-group">
@@ -58,7 +61,9 @@ const ContactUs = () => {
                 Submit
               </button>
               <br /><br />
-            </form>
+            </form> */}
+            <br/>
+            <br/>
           </div>
         </div>
       </div>
