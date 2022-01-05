@@ -3,10 +3,10 @@ import React, { useEffect } from "react";
 import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
 import newsletterimg from "./images/Issue12.png";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  useEffect(() => { 
+  useEffect(() => {
     Aos.init();
   }, []);
   return (
@@ -14,8 +14,8 @@ const Home = () => {
       {" "}
       <div className="text-center">
         <div className="bg-img">
-          <h1 style={{color:' #bbe0e8'}}>PICT MUN</h1>
-          <h3  style={{color:' #bbe0e8'}}>- Think, Discuss, Prosper -</h3>
+          <h1 style={{ color: " #bbe0e8" }}>PICT MUN</h1>
+          <h3 style={{ color: " #bbe0e8" }}>- Think, Discuss, Prosper -</h3>
         </div>
       </div>
       <div className="home">
@@ -35,8 +35,8 @@ const Home = () => {
                 and economic issues that elude the future of our world. PICT MUN
                 strongly believes in the important role of dialogue and
                 discussion in solving any problem and hence always abides by its
-                motto - 'Think.Discuss.Prosper.' PICT MUN organizes an annual MUN
-                conference and various public speaking events to engage the
+                motto - 'Think.Discuss.Prosper.' PICT MUN organizes an annual
+                MUN conference and various public speaking events to engage the
                 youth, who are the torchbearers of the future, in stimulating
                 conversations. This encourages them to discuss and debate on
                 important issues and find a common ground to agree on, thus
@@ -45,13 +45,32 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="col-md-6 text-center" id="homepic1" data-aos="fade-up" data-aos-duration="1000" ><img width="510" height="296" src={groupimg} style={{marginTop:"50px"}}/></div>
+            <div
+              className="col-md-6 text-center"
+              id="homepic1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                width="510"
+                height="296"
+                src={groupimg}
+                style={{ marginTop: "50px" }}
+              />
+            </div>
           </div>
         </div>
         {/* Conference  */}
         <div className="container mt-5">
           <div className="row my-5">
-            <div className="col-md-6 text-center" id="homepic2" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg} style={{marginTop:"60px"}}/></div>
+            <div
+              className="col-md-6 text-center"
+              id="homepic2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img src={conferenceimg} style={{ marginTop: "60px" }} />
+            </div>
             <div
               className="col-md-6"
               data-aos="fade-up"
@@ -73,7 +92,6 @@ const Home = () => {
                 national delegates from various states of the country!
               </p>
             </div>
-
           </div>
         </div>
         {/* Events  */}
@@ -96,12 +114,14 @@ const Home = () => {
                   giving each individual the opportunity to develop their public
                   speaking skills.
                 </p>
-                <Link className="btn btn-info mt-3" to="/events">See All Events</Link>
+                <Link className="btn btn-info mt-3" to="/events">
+                  See All Events
+                </Link>
               </div>
             </div>
           </div>
-          </div>
-        
+        </div>
+
         {/* Newsletter  */}
         <div className="container mt-5">
           <div className="row my-5">
@@ -131,7 +151,18 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
-            <div className="col-md-6 text-center" id="homepic3" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px", marginLeft:"250px"}}/></div>
+            <div
+              className="col-md-6 text-center"
+              id="homepic3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                className="photo"
+                src={newsletterimg}
+                style={{ marginTop: "60px", marginLeft: "250px" }}
+              />
+            </div>
           </div>
         </div>
       </div>
