@@ -1,10 +1,12 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
-import groupimg from "./images/Grouppic.JPG";
+import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
-import newsletterimg from "./images/newsletter.png";
+import newsletterimg from "./images/Issue13.png";
+import { Link } from "react-router-dom"; 
+
 const Home = () => {
-  useEffect(() => {
+  useEffect(() => { 
     Aos.init();
   }, []);
   return (
@@ -12,8 +14,8 @@ const Home = () => {
       {" "}
       <div className="text-center">
         <div className="bg-img">
-          <h1>PICT MUN</h1>
-          <h3>- Think, Discuss, Prosper -</h3>
+          <h1 style={{color:' #bbe0e8'}}>PICT MUN</h1>
+          <h3  style={{color:' #bbe0e8'}}>- Think, Discuss, Prosper -</h3>
         </div>
       </div>
       <div className="home">
@@ -43,13 +45,13 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="col-md-6 text-center" ><img src={groupimg}/></div>
+            <div className="col-md-6 text-center" id="homepic1" data-aos="fade-up" data-aos-duration="1000" ><img width="510" height="296" src={groupimg} style={{marginTop:"50px"}}/></div>
           </div>
         </div>
         {/* Conference  */}
         <div className="container mt-5">
           <div className="row my-5">
-            <div className="col-md-6 text-center"><img src={conferenceimg}/></div>
+            <div className="col-md-6 text-center" id="homepic2" data-aos="fade-up" data-aos-duration="1000"><img src={conferenceimg} style={{marginTop:"60px"}}/></div>
             <div
               className="col-md-6"
               data-aos="fade-up"
@@ -94,13 +96,12 @@ const Home = () => {
                   giving each individual the opportunity to develop their public
                   speaking skills.
                 </p>
-
-                <a className="btn btn-info mt-3">See All Events</a>
-                <a className="btn btn-info mt-3" href="/events">See All Events</a>
+                <Link className="btn btn-info mt-3" to="/events">See All Events</Link>
               </div>
             </div>
           </div>
-        </div>
+          </div>
+        
         {/* Newsletter  */}
         <div className="container mt-5">
           <div className="row my-5">
@@ -130,7 +131,7 @@ const Home = () => {
                 newsletter.
               </p>
             </div>
-            <div className="col-md-6 text-center"><img src={newsletterimg}/></div>
+            <div className="col-md-6 text-center" id="homepic3" data-aos="fade-up" data-aos-duration="1000"><img className="photo" src={newsletterimg} style={{marginTop:"60px", marginLeft:"250px"}}/></div>
           </div>
         </div>
       </div>
