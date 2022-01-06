@@ -18,7 +18,7 @@ const Team = () => {
       <div className="heading-bg">
         <div className="heading mb-5">Team</div>
       </div>
-      <h3 className="team-headings"> Secretary General  </h3>
+      <h3 className="team-headings"> Secretariat </h3>
       <div className="container">
         <div className="row">
           <div className="col-md-6 text-center">

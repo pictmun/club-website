@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-md-4 text-center">
-            <div className="footer-title">Connect with Us!</div>
+            <div className="footer-title">                  Connect with Us!</div>
             <div className="row" id="footer-icons">
               <div className="col-3"></div>
               <div className="col-1">
@@ -50,6 +50,11 @@ const Footer = () => {
               <div className="col-1">
                 <a href="https://www.linkedin.com/company/pict-mun-club/" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+              <div className="col-1">
+                <a href="https://twitter.com/pictmun?t=G9UUXlAFZRCoP7soIYidhQ&s=09" target="_blank">
+                <i class="fab fa-twitter"></i>
                 </a>
               </div>
               <div className="col-1">
