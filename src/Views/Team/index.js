@@ -16,7 +16,7 @@ const Team = () => {
   return (
     <>
       <div className="heading-bg">
-        <div className="heading mb-5">Team</div>
+        <div className="heading mb-5">Our Team</div>
       </div>
       <h3 className="team-headings"> Secretariat </h3>
       <div className="container">
