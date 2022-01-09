@@ -7,7 +7,7 @@ const Navbar = (props) => {
     <>
       <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <Link className="navbar-brand" to="/">
-        <img src="/assets/Logo2.png" />
+          <img src="/assets/Logo2.png" />
         </Link>
         <button
           className="navbar-toggler"
@@ -22,40 +22,72 @@ const Navbar = (props) => {
         </button>
         <div className="collapse navbar-collapse " id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <Link className="nav-link" to="/">
                 Home <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <Link className="nav-link" to="/events">
                 Events
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <Link className="nav-link" to="/aboutUs">
                 About Us
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <Link className="nav-link" to="/team">
                 Our Team
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               {/* <Link className="nav-link" to="/newsletter">
                 Newsletter
               </Link> */}
-              <Link className="nav-link" to={{ pathname: "https://pictmun.github.io/Newsletter/" }} target="_blank"> 
+              <Link
+                className="nav-link"
+                to={{ pathname: "https://pictmun.github.io/Newsletter/" }}
+                target="_blank"
+              >
                 Newsletter
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <Link className="nav-link" to="/gallery">
                 Gallery
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
               <Link className="nav-link" to="/contactUs">
                 Contact Us
               </Link>

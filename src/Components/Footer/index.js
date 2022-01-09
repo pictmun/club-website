@@ -6,8 +6,12 @@ const Footer = () => {
     <>
       <div className="footer container-fluid py-5">
         <div className="row">
-          <div className="col-md-4" style={{textAlign:"center"}}>
-            <img className="footer-img" src="/assets/Logo.png" />
+          <div className="col-md-4" style={{ textAlign: "center" }}>
+            <img
+              className="footer-img"
+              style={{ width: "40%" }}
+              src="/assets/Logo.png"
+            />
           </div>
           <div className="col-md-4 text-center">
             <div className="footer-title">Links</div>
@@ -39,23 +43,34 @@ const Footer = () => {
               <div className="col-3"></div>
               <div className="col-1">
                 <a href="https://www.instagram.com/pictmun/" target="_blank">
-                <i class="fab fa-instagram"></i>
+                  <i class="fab fa-instagram"></i>
                 </a>
               </div>
               <div className="col-1">
                 <a href="https://www.facebook.com/pictmun" target="_blank">
-                <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-facebook-square"></i>
                 </a>
               </div>
               <div className="col-1">
-                <a href="https://www.linkedin.com/company/pict-mun-club/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+                <a
+                  href="https://www.linkedin.com/company/pict-mun-club/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+              <div className="col-1">
+                <a
+                  href="https://twitter.com/pictmun?t=G9UUXlAFZRCoP7soIYidhQ&s=09"
+                  target="_blank"
+                >
+                  <i class="fab fa-twitter"></i>
                 </a>
               </div>
               <div className="col-1">
                 <a href="mailto:pictmun@gmail.com" target="_blank">
-                <i class="fa fa-envelope"></i>
-                {/* <i class="fas fa-envelope"></i> */}
+                  <i class="fa fa-envelope"></i>
+                  {/* <i class="fas fa-envelope"></i> */}
                 </a>
               </div>
               <div className="col-3"></div>

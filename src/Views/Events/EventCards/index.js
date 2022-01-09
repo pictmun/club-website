@@ -5,9 +5,9 @@ import extemporeimg from "../images/Extempore.JPG";
 import gdimg from "../images/gd.JPG";
 import debateimg from "../images/debate.JPG";
 import openmicimg from "../images/openmic.JPG";
-import feimg from "../images/fe.JPG";
+import feimg from "../images/fe1.JPG";
 import intramunimg from "../images/intramun.png";
-import driveimg from "../images/drive_poster.png";
+import driveimg from "../images/drive_poster.jpeg";
 
 const EventCards = () => {
   return (

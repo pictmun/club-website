@@ -2,7 +2,7 @@ import Aos from "aos";
 import React, { useEffect } from "react";
 import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
-import newsletterimg from "./images/Issue12.png";
+import newsletterimg from "./images/Issue13.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -52,8 +52,7 @@ const Home = () => {
               data-aos-duration="1000"
             >
               <img
-                width="510"
-                height="296"
+                className="photo"
                 src={groupimg}
                 style={{ marginTop: "50px" }}
               />
@@ -62,14 +61,18 @@ const Home = () => {
         </div>
         {/* Conference  */}
         <div className="container mt-5">
-          <div className="row my-5">
+          <div className="row flex-column-reverse flex-lg-row my-5">
             <div
               className="col-md-6 text-center"
               id="homepic2"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <img src={conferenceimg} style={{ marginTop: "60px" }} />
+              <img
+                className="photo"
+                src={conferenceimg}
+                style={{ marginTop: "60px" }}
+              />
             </div>
             <div
               className="col-md-6"
@@ -160,7 +163,7 @@ const Home = () => {
               <img
                 className="photo"
                 src={newsletterimg}
-                style={{ marginTop: "60px", marginLeft: "250px" }}
+                style={{ marginTop: "60px", width: "50%" }}
               />
             </div>
           </div>

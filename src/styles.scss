@@ -32,7 +32,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .bg-img h1 {
@@ -63,8 +62,8 @@ body {
 //   border-bottom: 1px solid $color4;
 // }
 .photo {
-  height: 368px;
-  width: 260px; 
+  height: auto;
+  width: 90%;
 }
 .home p {
   color: #000;
@@ -146,6 +145,51 @@ body {
   font-size: 32px !important;
 }
 
+.carousel {
+  width: 60vw;
+
+  height: 70vh;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.carousel-img {
+  width: 60vw;
+  height: 100%;
+  min-height: 50vh;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: 80vw;
+
+    height: auto;
+    margin: auto;
+    min-height: 80vh;
+    margin-bottom: 50px;
+  }
+
+  .carousel-caption {
+    position: relative;
+    right: 0%;
+    padding-top: 15% !important;
+    left: 0%;
+    z-index: 10;
+    padding: 20px;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    // width: 70%;
+  }
+
+  .carousel-img {
+    position: absolute;
+    width: auto;
+    height: 90vh;
+    // min-height: 80vh;
+  }
+}
+
 .contact-form {
   width: 100%;
 }
@@ -183,15 +227,19 @@ input {
   margin-bottom: 25px;
   color: #25274d;
   font-weight: bold;
+  margin-right: 10px;
 }
 .footer i {
   font-size: 32px;
 }
 
 #footer-icons {
-  margin-left: 5px;
+  // margin-left: 5px;
+  margin-right: 4px;
 }
 
 .base {
   background-color: #464866;
 }
+
+// .carousel

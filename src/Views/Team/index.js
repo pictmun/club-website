@@ -16,9 +16,9 @@ const Team = () => {
   return (
     <>
       <div className="heading-bg">
-        <div className="heading mb-5">Team</div>
+        <div className="heading mb-5">Our Team</div>
       </div>
-      <h3 className="team-headings"> Secretary General  </h3>
+      <h3 className="team-headings"> Secretariat </h3>
       <div className="container">
         <div className="row">
           <div className="col-md-6 text-center">
@@ -35,13 +35,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                    <a href=" https://www.instagram.com/med17sidd/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                    <a href=" https://www.linkedin.com/in/ahmed-17-siddiqui/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -63,13 +67,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                    <a href=" https://www.instagram.com/to_be_mk/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                    <a href= "https://www.linkedin.com/in/malhaar-karandikar-20802a1b4/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -95,13 +103,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                    <a href=" https://www.instagram.com/s.sufiya_/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                    <a href=" https://www.linkedin.com/in/sufiya-sayyed-737534205/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -123,13 +135,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                  <a href=" https://www.instagram.com/inferno_080/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                    <a href="https://www.linkedin.com/in/yash-kale-0a92581ba/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -162,7 +178,9 @@ const Team = () => {
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                    <a href=" https://www.linkedin.com/in/karthik-panicker-40a4b619b" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -184,13 +202,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                  <a href="https://www.instagram.com/_saimaansari_/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                    <a href=" https://www.linkedin.com/in/saima-ansari-66a99b188" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -212,13 +234,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                  <a href="http://instagram.com/zeel._/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                  <a href="https://www.linkedin.com/in/zeelpatel2001/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -244,13 +270,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                  <a href="https://www.instagram.com/abhiiii__9/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                  <a href=" https://www.linkedin.com/in/abhishekbora09/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -272,13 +302,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                  <a href="https://www.instagram.com/anuja_patillll/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                  <a href="https://www.linkedin.com/in/anuja-patil-24029a186/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
@@ -300,13 +334,17 @@ const Team = () => {
                 <div className="row">
                   <div className="col-4"></div>
                   <div className="col-2">
+                  <a href="https://www.instagram.com/_sohamnaik/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                   {/* <div className="col-2">
                     <i class="fa-brands fa-facebook-square"></i>
                   </div> */}
                   <div className="col-2">
+                  <a href="https://www.linkedin.com/in/sn-07/" target="_blank" style={{color: "#0a677e"}}>
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
                   <div className="col-4"></div>
                 </div>
