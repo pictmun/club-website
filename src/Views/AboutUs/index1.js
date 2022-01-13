@@ -6,6 +6,7 @@ import { Carousel } from "react-bootstrap";
 import pic1 from "./pics/1.png";
 import pic2 from "./pics/5.png";
 import pic3 from "./pics/6.png";
+import './AboutUs.css';
 
 const AboutUs = () => {
   return (
@@ -23,7 +24,7 @@ const AboutUs = () => {
           />
           <Carousel.Caption>
             <h3>PICT MUN</h3>
-            <p>
+            <p className='info'>
               Established in the year 2016, the PICT MUN Club focuses on
               organizing conferences for the personality development of the
               students of the college and the region. The Club has successfully
@@ -44,7 +45,7 @@ const AboutUs = () => {
           />
           <Carousel.Caption>
             <h3>MUN</h3>
-            <p>
+            <p className='info'>
               The Model United Nations, Model UN or MUN is a reenactment of the
               United Nations that was propelled from the 'Model League Of
               Nations'. The members get the chance to encounter the difficulties
@@ -68,7 +69,7 @@ const AboutUs = () => {
           />
           <Carousel.Caption>
             <h3>UN</h3>
-            <p>
+            <p className='info'>
               The United Nations is an international organization founded in
               1945. It is currently made up of 193 Member States. The mission
               and work of the United Nations are guided by the purposes and

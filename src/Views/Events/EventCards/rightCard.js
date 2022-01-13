@@ -1,4 +1,5 @@
 import React from "react";
+import './EventCards.css';
 const RightCard = (props) => {
   return (
     <>
@@ -18,7 +19,7 @@ const RightCard = (props) => {
               <div className="col-md-8">
                 <div className="card-body">
                   <h5 className="card-title">{props.title}</h5>
-                  <p className="card-text">{props.details}</p>
+                  <p className="card-text" className="info">{props.details}</p>
                 </div>
               </div>
             </div>

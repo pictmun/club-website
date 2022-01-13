@@ -37,43 +37,66 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 text-center">
+          <div className=" text-center">
             <div className="footer-title">Connect with Us!</div>
             <div className="row" id="footer-icons">
-              <div className="col-3"></div>
-              <div className="col-1">
+              {/* <div className="col-0"></div> */}
+
                 <a href="https://www.instagram.com/pictmun/" target="_blank">
-                  <i class="fab fa-instagram"></i>
+                 <div className="col-1">
+                   <i class="fab fa-instagram"></i>
+                 </div>
                 </a>
-              </div>
-              <div className="col-1">
+                <a href="https://www.facebook.com/pictmun" target="_blank">
+                 <div className="col-1">
+                   <i class="fa-brands fa-facebook-square"></i>
+                 </div>
+                </a>
+                <a href="https://www.linkedin.com/company/pict-mun-club/" target="_blank">
+                 <div className="col-1">
+                   <i class="fa-brands fa-linkedin"></i>
+                 </div>
+                </a>
+                <a href="https://twitter.com/pictmun?t=G9UUXlAFZRCoP7soIYidhQ&s=09" target="_blank">
+                 <div className="col-1">
+                   <i class="fab fa-twitter"></i>
+                 </div>
+                </a>
+                <a href="mailto:pictmun@gmail.com" target="_blank">
+                 <div className="col-1">
+                   <i class="fa fa-envelope"></i>
+                 </div>
+                </a>
+
+              
+              {/* <div className="col-1">
                 <a href="https://www.facebook.com/pictmun" target="_blank">
                   <i class="fa-brands fa-facebook-square"></i>
                 </a>
-              </div>
-              <div className="col-1">
+              </div> */}
+              {/* <div className="col-1">
                 <a
                   href="https://www.linkedin.com/company/pict-mun-club/"
                   target="_blank"
                 >
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
-              </div>
-              <div className="col-1">
+              </div> */}
+              {/* <div className="col-1">
                 <a
                   href="https://twitter.com/pictmun?t=G9UUXlAFZRCoP7soIYidhQ&s=09"
                   target="_blank"
                 >
                   <i class="fab fa-twitter"></i>
                 </a>
-              </div>
-              <div className="col-1">
+              </div> */}
+              {/* <div className="col-1">
                 <a href="mailto:pictmun@gmail.com" target="_blank">
                   <i class="fa fa-envelope"></i>
-                  {/* <i class="fas fa-envelope"></i> */}
+                  
                 </a>
-              </div>
-              <div className="col-3"></div>
+              </div> */}
+              {/* <div className="col-3"></div> */}
               {/* <div>
                 <a href="mailto:pictmun@gmail.com">
                   <h4 id="footer-email">Email Us!</h4>

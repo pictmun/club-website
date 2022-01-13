@@ -4,6 +4,8 @@ import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
 import newsletterimg from "./images/Issue13.png";
 import { Link } from "react-router-dom";
+import "./home.css";
+
 
 const Home = () => {
   useEffect(() => {
@@ -12,7 +14,7 @@ const Home = () => {
   return (
     <>
       {" "}
-      <div className="text-center">
+      <div className="text-center" textAlign="justify">
         <div className="bg-img">
           <h1 style={{ color: " #bbe0e8" }}>PICT MUN</h1>
           <h3 style={{ color: " #bbe0e8" }}>- Think, Discuss, Prosper -</h3>
@@ -29,7 +31,7 @@ const Home = () => {
             >
               <h2 className="para-title">PICT MUN</h2>
               {/* <img src="/assets/1.png" alt="" /> */}
-              <p className="info">
+              <p className="info" >
                 The PICT MUN Club, established in 2016, consists of a group of
                 inquisitive students who are passionate about social, political
                 and economic issues that elude the future of our world. PICT MUN
@@ -80,7 +82,7 @@ const Home = () => {
               data-aos-duration="1000"
             >
               <h2>PICT MUN Conference</h2>
-              <p>
+              <p className="info">
                 The PICT MUN Club organizes an annual MUN conference with an
                 ever-increasing turnout of enthusiastic and unique set of people
                 including everyone from school children to undergraduates and
@@ -107,7 +109,7 @@ const Home = () => {
             <div className="col-md-12">
               <h2>Events</h2>
               <div className="container">
-                <p>
+                <p className="info">
                   Apart from the annual MUN conference, PICT MUN was the first
                   club at PICT to organize various intra-college public speaking
                   events to motivate people to express their views in front of a
@@ -134,7 +136,7 @@ const Home = () => {
               data-aos-duration="1000"
             >
               <h2>Newsletter</h2>
-              <p>
+              <p className="info">
                 'The Inquisitor' is a monthly newsletter published by our
                 in-house team of amazing writers, graphic designers and
                 researchers at the PICT MUN Club. We believe in unbiased and
