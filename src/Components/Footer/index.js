@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="col-12 base text-center">Copyright</div>
+      <div className="col-12 base text-center"></div>
     </>
   );
 };

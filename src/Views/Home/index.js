@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import groupimg from "./images/Grouppic1.png";
 import conferenceimg from "./images/conference.JPG";
 import newsletterimg from "./images/Issue13.png";
+import objectivesimg from "./images/obj.png";
 import { Link } from "react-router-dom";
 import "./home.css";
 
@@ -57,7 +58,7 @@ const Home = () => {
                 className="photo"
                 src={groupimg}
                 style={{ marginTop: "50px" }}
-              />
+              alt=""/>
             </div>
           </div>
         </div>
@@ -74,7 +75,7 @@ const Home = () => {
                 className="photo"
                 src={conferenceimg}
                 style={{ marginTop: "60px" }}
-              />
+                alt=""/>
             </div>
             <div
               className="col-md-6"
@@ -166,7 +167,39 @@ const Home = () => {
                 className="photo"
                 src={newsletterimg}
                 style={{ marginTop: "60px", width: "50%" }}
-              />
+                alt=""/>
+            </div>
+          </div>
+        </div>
+        {/* Objectives */}
+        <div className="container mt-5">
+          <div className="row flex-column-reverse flex-lg-row my-5">
+            <div
+              className="col-md-6 text-center"
+              id="homepic2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                className="photo"
+                src={objectivesimg}
+                style={{ marginTop: "60px" }}
+                alt=""/>
+            </div>
+            <div
+              className="col-md-6"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h2>PICT MUN Club Objectives</h2>
+              <p className="info">
+              <ul>
+                <li>To assist in achieving a better understanding of the United Nations, and in doing so, developing leadership, research, writing, public speaking, and problem-solving skills.</li>
+                <li>Inculcating a sense of worldly knowledge and confidence building, along with key skills like negotiation, conflict resolution and cooperation.</li>
+                <li>Creation of a professional environment for our events and conferences, and garnering interest for active participation in MUNs.</li>
+                <li>To maintain the quality and ethos of the PICT MUN club.</li>
+              </ul>
+              </p>
             </div>
           </div>
         </div>
